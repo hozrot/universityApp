@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.nilpodma.universityofbangladesh"
+    android:versionCode="1"
+    android:versionName="1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.nilpodma.universityofbangladesh.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="university"></activity>
+        <activity android:name="devision"></activity>
+        <activity android:name="extra"></activity>
+        <activity android:name="info"></activity>
+        <activity android:name="prvt"></activity>
+        <activity android:name="spcl"></activity>
+        <activity android:name="inter"></activity>
+        <activity android:name="pblc"></activity>
+        <activity android:name="bari"></activity>
+        <activity android:name="chit"></activity>
+        <activity android:name="dha"></activity>
+        <activity android:name="khul"></activity>
+        <activity android:name="raj"></activity>
+        <activity android:name="ran"></activity>
+        <activity android:name="syl"></activity>
+        <activity android:name="dhawv"></activity>
+        <activity android:name="rajwv"></activity>
+        <activity android:name="brurwv"></activity>
+        <activity android:name="otherwv"></activity>
+    </application>
+
+</manifest>

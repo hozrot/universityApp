@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:autoLink="web"
+        android:background="#234567"
+        android:text="Education Board Result: www.educationboardresults.gov.bd/regular/index.php\n\nEducation Board: www.educationboard.gov.bd\n\nUGC official site : ww1.ugc.org\n\n Bangladesh Madrasah Education Board: www.bmeb.gov.bd\n\nBangladesh Technical Education Board (BTEB):www.bteb.gov.bd"
+        android:textSize="20sp" />
+
+</LinearLayout>

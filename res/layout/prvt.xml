@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#234567"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:autoLink="web"
+        android:text="1.Ahsanullah University of Science and Technology
+Web-site: www.aust.edu\n
+2.BRAC University
+Web-site: 	www.bracuniversity.ac.bd\n
+3.North South University
+Web-site:  	www.northsouth.edu\n
+4.Stamford University, Bangladesh
+Web-site:www.stamforduniversity.edu.bd\n\n You can Find the other private university here: en.wikipedia.org/wiki/List_of_universities_in_Bangladesh
+"
+        android:textSize="20sp" />
+
+</LinearLayout>

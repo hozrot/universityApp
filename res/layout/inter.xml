@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#234567"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:autoLink="web"
+        android:text="There are only two international universities in Bangladesh. These universities are neither managed and funded by the government, like public universities, nor established under the Private University Act and managed by a private governing body, like private universities.  Islamic University of Technology was established by the Organisation of Islamic Cooperation and located in Gazipur, Dhaka division while another is located in Chittagong division and funded by the Asian University for Women Support Foundation (AUWSF), a United States based non-profit corporation.\n\n1.Islamic University of Technology\nwww.iutoic-dhaka.edu\n\n2.Asian University for Women\nwww.asian-university.org"
+        android:textSize="16sp" />
+
+</LinearLayout>
